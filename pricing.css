@@ -1,0 +1,112 @@
+
+
+html {
+  font-size: 14px;
+}
+/*by internet*/
+*,*:before,*:after {
+  box-sizing:border-box;
+}
+
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.container {
+  max-width: 960px;
+}
+
+
+.pricing-header {
+  max-width: 700px;
+}
+
+.card-deck .card {
+  min-width: 220px;
+}
+
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+
+
+.bg-color-custom {
+  background-color: blueviolet;
+}
+
+.presentacio{
+  padding-top:70px;
+  padding-bottom:80px;
+}
+
+.padding_psicoleg {
+  margin-bottom: 10px;
+}
+
+li {
+  list-style-type:none;
+}
+
+svg {
+  width: 100px;
+  height: auto;
+  margin-top: 40px;
+  margin-bottom:20px;
+  transition: all 0.1s ease-in;
+}
+
+svg:hover{
+  transform: scale(1.1);
+}
+
+.venga {
+  text-align: center
+}
+
+p, li {
+  font-size:20px;
+}
+
+.seccio_serveis {
+  padding: 90px 0px;
+}
+
+.posa_espai {
+  margin-top: 30px;
+  margin-bottom: 35px;
+}
+
+.afegeix_padding_per_dalt_i_baix {
+  padding: 120px 0px;
+}
+
+.ASD {
+  padding: 150px 0px;
+}
+
+#formContactePago {
+  padding-bottom:30px;
+  margin: 80px 0px;
+  padding-left:5px;
+}
+
+/*animem la sortida del formulari*/
+#formContactePago {transition: all 0.1s ease-in;}
+#formContactePago button:active {transform:scaleZ(1.8);}
+
+img {
+  transition: all 0.2s ease-in;
+}
+
+img:hover {
+  transform: scale(1.01);
+}
+
+/*Estils per al radiobutton*/
+#paypal, #tarja {
+  padding-bottom: 20px;
+}
